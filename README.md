@@ -14,3 +14,5 @@ npm run dev
 ```
 
 Recuerda utilizar ngrok para obtener una url con https y configurar esa url en el webhook de tu app de facebook developer
+
+Acede desde un navegador a la ruta /auth/facebook

@@ -2,17 +2,10 @@ const express = require('express');
 const passport = require('passport');
 const FB = require('fb').default;
 const config = require('./config');
-console.log(FB.api);
-/*
-FB.extend({
-  appId: config.facebookClientID, 
-  appSecret: config.facebookClientSecret
-}),*/
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
-console.log(config);
 /**
  * Requerimos estrategia para acceder o conectar con facebook
  */
